@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.orta{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.orta .card-genel{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    color: #535353;
+}
+
+.orta .card-genel .card-tek{
+    width: 24%;
+    height: auto;
+    border: 1px solid #eee;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    -webkit-transition: all 350ms ease-in-out ;
+    -moz-transition: all 350ms ease-in-out ;
+    -ms-transition: all 350ms ease-in-out ;
+    -o-transition: all 350ms ease-in-out ;
+    transition: all 350ms ease-in-out ;
+}
+
+.orta .card-genel .card-tek:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    box-shadow: 2px 2px 25px rgba(0,0,0,0.5);
+}
+
+.orta .card-genel .card-tek .card-resim img{
+    width: 100%;
+    height: auto;
+}
+
+.orta .card-genel .card-tek .card-baslik{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.orta .card-genel .card-tek .card-aciklama{
+    width: 80%;
+    height: auto;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+
+.orta .card-genel .card-tek .card-baslik p{
+    font-weight: 100;
+    height: auto;
+
+}
+
+
+/*---------------------960px--------------------*/
+
+@media screen and (max-width: 960px) {
+
+    .orta{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .orta .card-genel{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        color: #535353;
+    }
+
+    .orta .card-genel .card-tek{
+        width: 45%;
+        height: auto;
+        border: 1px solid #eee;
+        float: left;
+        margin-top: 25px;
+        background-color: #ffffff;
+        overflow: hidden;
+        -webkit-transition: all 350ms ease-in-out ;
+        -moz-transition: all 350ms ease-in-out ;
+        -ms-transition: all 350ms ease-in-out ;
+        -o-transition: all 350ms ease-in-out ;
+        transition: all 350ms ease-in-out ;
+    }
+
+    .orta .card-genel .card-tek:hover{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        box-shadow: 2px 2px 25px rgba(0,0,0,0.5);
+    }
+
+    .orta .card-genel .card-tek .card-resim img{
+        width: 100%;
+        height: auto;
+    }
+
+    .orta .card-genel .card-tek .card-baslik{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 10px;
+        font-weight: 100;
+    }
+
+    .orta .card-genel .card-tek .card-aciklama{
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+        padding-left: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-right: 25px;
+    }
+
+    .orta .card-genel .card-tek .card-baslik p{
+        font-weight: 100;
+        height: auto;
+
+    }
+
+}
+
+
+
+/*---------------------480px--------------------*/
+
+@media screen and (max-width: 480px) {
+
+    .orta{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .orta .card-genel{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        color: #535353;
+    }
+
+    .orta .card-genel .card-tek{
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+        border: 1px solid #eee;
+        float: left;
+        background-color: #ffffff;
+        overflow: hidden;
+        -webkit-transition: all 350ms ease-in-out ;
+        -moz-transition: all 350ms ease-in-out ;
+        -ms-transition: all 350ms ease-in-out ;
+        -o-transition: all 350ms ease-in-out ;
+        transition: all 350ms ease-in-out ;
+    }
+
+    .orta .card-genel .card-tek:hover{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        box-shadow: 2px 2px 25px rgba(0,0,0,0.5);
+    }
+
+    .orta .card-genel .card-tek .card-resim img{
+        width: 100%;
+        height: auto;
+    }
+
+    .orta .card-genel .card-tek .card-baslik{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 10px;
+        font-weight: 100;
+    }
+
+    .orta .card-genel .card-tek .card-aciklama{
+        width: 80%;
+        height: auto;
+        font-size: 15px;
+        padding-left: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        padding-right: 25px;
+    }
+
+    .orta .card-genel .card-tek .card-baslik p{
+        font-weight: 100;
+        height: auto;
+
+    }
+
+}
